@@ -1,10 +1,8 @@
 package introduction.day10;
 
-import java.util.Arrays;
-
 public class Day10_3 {
 
-    // 2차원으로 만들기
+    // 공 던지기
     public static void main(String[] args) {
 
         int[] numbers = {1, 2, 3, 4};

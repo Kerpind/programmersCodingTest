@@ -1,10 +1,8 @@
 package introduction.day10;
 
-import java.util.Arrays;
-
 public class Day10_1 {
 
-    // 배열 자르기
+    // 점의 위치 구하기
     public static void main(String[] args) {
 
         int[] dot = {2, 4};

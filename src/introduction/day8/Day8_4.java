@@ -1,7 +1,5 @@
 package introduction.day8;
 
-import java.util.Arrays;
-
 public class Day8_4 {
 
     // 순서쌍의 개수

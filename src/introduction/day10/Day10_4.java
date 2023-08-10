@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Day10_4 {
 
-    // 2차원으로 만들기
+    // 배열 회전시키기
     public static void main(String[] args) {
 
         int[] numbers = {1, 2, 3};
