@@ -67,21 +67,9 @@ S
 #src/introduction/day15/Day15_4.java,c\4\c4d6097db7b1db2e0897e7c165021dabe3848073
 S
 #src/introduction/day15/Day15_3.java,2\e\2e4010f4867d96cdb49d67000cd00e979b5548bc
-S
-#src/introduction/day16/Day16_1.java,8\b\8b505581233aeaad99a14995c168de84854c9442
-S
-#src/introduction/day16/Day16_2.java,4\7\470e4c8ae5c95664068830b2612343b6a70afdd1
-S
-#src/introduction/day16/Day16_3.java,6\e\6ef4139aa1884ad279b4f8478a82072326daae70
 O
 src/foundation/day2/Day2_2.java,3\c\3c44b5c7dc200a78d2733173f772cb3d37594b15
-O
-src/foundation/day2/Day2_3.java,e\5\e559df2898c970e118ee06a79758c5e5b4fcb9a4
 O
 src/foundation/day2/Day2_4.java,8\e\8e24eab00cea78fe0e1ec539d6c3aa822ec2dceb
 O
 src/foundation/day1/Day1_1.java,c\1\c10b89b4aa3cb134ffd3069adf982f2c995c247e
-S
-#src/introduction/day16/Day16_4.java,3\9\395c385e2e22df082d919d05438af61cbf0cbab5
-=
-src/Test.java,a\8\a862b92d10f810e224187403c322cb8e01f5e244
