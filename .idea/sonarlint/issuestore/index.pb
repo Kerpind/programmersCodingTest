@@ -29,9 +29,59 @@ S
 #src/introduction/day10/Day10_4.java,3\3\3327f76fe9d484e059726675a49454cb833f292e
 O
 src/foundation/day1/Day1_2.java,0\0\003492de7ea57b007f30ce7fa35bef60b2ac3a23
-O
-src/foundation/day1/Day1_1.java,c\1\c10b89b4aa3cb134ffd3069adf982f2c995c247e
 S
 #src/introduction/day13/Day13_4.java,1\7\17678430f4348927577eec7e9dfef135530e7f57
 O
 src/foundation/day1/Day1_3.java,f\9\f9cf141d3287c42cf34d25d08646ef06e7e5319d
+O
+src/foundation/day2/Day2_5.java,0\d\0d34366f435dcb58d713b674bc30dc7c97b86e07
+O
+src/foundation/day2/Day2_1.java,6\b\6b6be69f440743d76192ae1b20e93db574360532
+O
+src/foundation/day1/Day1_5.java,7\f\7f1eaa365a17c7e424ed19021d6f07c6f1ecb0de
+O
+src/foundation/day1/Day1_4.java,6\5\651dc08554133b409c3930ff8582e1561373ba69
+S
+#src/introduction/day15/Day15_2.java,a\8\a868859714b428dc1a2eb0f6e30a9a9d6fcb71d8
+S
+#src/introduction/day15/Day15_1.java,5\5\55c29ca39bb44bdd3be674e0d108f922d64ab39b
+S
+#src/introduction/day14/Day14_1.java,8\e\8e47818961b28aa2e0c0a830ca4165c13923c62e
+S
+#src/introduction/day14/Day14_2.java,5\f\5fecf63460e9605a5b0761d4ffa87c194142bc8e
+S
+#src/introduction/day14/Day14_3.java,d\7\d70ba35aac54c1e42ec82247965334cd6147ea7f
+S
+#src/introduction/day14/Day14_4.java,7\c\7c79f8e1b6c9a78e12f686bbe1d019f44d6e96e8
+S
+#src/allproblems/lv1/Problems_1.java,4\b\4b8f3cda63191f18ae5b14e520fef5b8de71c01e
+S
+#src/allproblems/lv2/Problems_1.java,f\f\ff5d3d8c008b7a87b8246a6a1123799108ee2001
+M
+src/highscore/Problems_1.java,8\7\875e1438eb3d721c5527498291d94f93c93bff16
+M
+src/highscore/Problems_2.java,c\f\cf3fbc32129289c476ec9ba052556d9c659ebbb5
+M
+src/highscore/Problems_3.java,d\a\dae75872a06190c410acfeebee543f6530b92b50
+S
+#src/introduction/day15/Day15_4.java,c\4\c4d6097db7b1db2e0897e7c165021dabe3848073
+S
+#src/introduction/day15/Day15_3.java,2\e\2e4010f4867d96cdb49d67000cd00e979b5548bc
+S
+#src/introduction/day16/Day16_1.java,8\b\8b505581233aeaad99a14995c168de84854c9442
+S
+#src/introduction/day16/Day16_2.java,4\7\470e4c8ae5c95664068830b2612343b6a70afdd1
+S
+#src/introduction/day16/Day16_3.java,6\e\6ef4139aa1884ad279b4f8478a82072326daae70
+O
+src/foundation/day2/Day2_2.java,3\c\3c44b5c7dc200a78d2733173f772cb3d37594b15
+O
+src/foundation/day2/Day2_3.java,e\5\e559df2898c970e118ee06a79758c5e5b4fcb9a4
+O
+src/foundation/day2/Day2_4.java,8\e\8e24eab00cea78fe0e1ec539d6c3aa822ec2dceb
+O
+src/foundation/day1/Day1_1.java,c\1\c10b89b4aa3cb134ffd3069adf982f2c995c247e
+S
+#src/introduction/day16/Day16_4.java,3\9\395c385e2e22df082d919d05438af61cbf0cbab5
+=
+src/Test.java,a\8\a862b92d10f810e224187403c322cb8e01f5e244
