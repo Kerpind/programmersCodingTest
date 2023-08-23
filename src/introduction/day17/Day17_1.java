@@ -1,33 +1,35 @@
 package introduction.day17;
 
-import java.util.Arrays;
-
 public class Day17_1 {
 
-    // 자릿수 더하기
+    // 숫자 찾기
     public static void main(String[] args) {
 
-        int n = 1234;
+        int num = 123456;
+        int k = 7;
 
-        System.out.println("solution => " + solution(n));
+        System.out.println("solution => " + solution(num, k));
 
     }
 
-    public static int solution(int n) {
+    public static int solution(int num, int k) {
 
         int answer = 0;
 
-        String a = String.valueOf(n);
+        String[] a = String.valueOf(num).split("");
 
-        char[] b = a.toCharArray();
-
-        System.out.println(Arrays.toString(b));
-
-        for (int i = 0; i < b.length; i++) {
-            answer += (int)b[i]-'0';
+        for (int i = 0; i < a.length; i++) {
+            if (Integer.parseInt(a[i]) == k) {
+                answer = i+1;
+                break;
+            } else {
+                answer = -1;
+            }
         }
 
         return answer;
+
+        // return ("-" + num).indexOf(String.valueOf(k));
 
     }
 

@@ -1,6 +1,8 @@
+package introduction.day20;
+
 import java.util.Arrays;
 
-public class Test1 {
+public class Day20_2 {
 
     // 직사각형 넓이 구하기
     public static void main(String[] args) {
