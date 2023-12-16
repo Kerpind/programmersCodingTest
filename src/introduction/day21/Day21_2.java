@@ -12,6 +12,8 @@ public class Day21_2 {
 
         // int[][] board = {{0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 1, 0, 0}, {0, 0, 0, 0, 0}};
         int[][] board = {{0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 1, 1, 0}, {0, 0, 0, 0, 0}};
+        // int[][] board = {{1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}};
+        // int[][] board = {{0, 0, 1}, {0, 0, 0}, {0, 0, 0}};
 
         System.out.println("solution => " + solution(board));
 
@@ -19,68 +21,65 @@ public class Day21_2 {
 
     public static int solution(int[][] board) {
 
+        ArrayList<int[]> list = new ArrayList<>();
         int answer = 0;
+        int maxLength = 0;
 
-        // 전체 구역 수
-        int a = 0;
-
-        // 위험지역 수
-        int b = 0;
-
-        // 지뢰 위치
-        List<Integer> in = new ArrayList<>();
-
-        int c = 0;
-        int d = 0;
-
-        for (int i = 0; i < board.length; i++) {
-            int[] j = board[i];
-            for (int k = 0; k < j.length; k++) {
-                a++;
-                if (j[k] == 1) {
-                    in.add(a);
+        for(int i = 0; i < board.length; i++){
+            maxLength++;
+            for(int j = 0; j < board[0].length; j++){
+                if(board[i][j] == 1){
+                    int[] temp = {i,j};
+                    list.add(temp);
                 }
             }
         }
 
-        System.out.println(in);
+        for (int k = 0; k < list.size(); k++) {
 
-/*
-        import java.util.*;
-        class Solution {
-            public int solution(int[][] board) {
-                ArrayList<int[]> list = new ArrayList<>();
-                int answer = 0;
-                int[] dx = {0,1,-1,0,-1,1,1,-1};
-                int[] dy = {1,0,0,-1,-1,1,-1,1};
+            int a = list.get(k)[0];
+            int b = list.get(k)[1];
 
-                for(int i = 0; i < board.length; i++){
-                    for(int j = 0; j < board[0].length; j++){
-                        if(board[i][j] == 1){
-                            int[] temp = {i,j};
-                            list.add(temp);
-                        }
-                    }
+            if(a - 1 >= 0) {
+                board[a-1][b] = 1;
+                if (b - 1 >= 0) {
+                    board[a-1][b-1] = 1;
                 }
-
-                for(int a = 0 ; a < list.size(); a++){
-                    int i = list.get(a)[0];
-                    int j = list.get(a)[1];
-                    for(int k = 0 ; k < 8; k++){
-                        if(dx[k] + i >= 0 && dy[k] + j >= 0 && dx[k] + i <= board.length-1 && dy[k] + j <= board.length-1)
-                            board[dx[k] + i][dy[k] + j] = 1;
-                    }
+                if (b + 1 <= maxLength-1) {
+                    board[a-1][b+1] = 1;
                 }
+            }
 
-                for(int i = 0; i < board.length; i++){
-                    for(int j = 0; j < board[0].length; j++){
-                        if(board[i][j] == 0) answer+=1;
-                    }
+            if (b - 1 >= 0) {
+                board[a][b-1] = 1;
+            }
+            if (b + 1 <= maxLength-1) {
+                board[a][b+1] = 1;
+            }
+
+            if (a + 1 <= maxLength-1) {
+                board[a+1][b] = 1;
+                if (b - 1 >= 0) {
+                    board[a+1][b-1] = 1;
                 }
-                return answer;
+                if (b + 1 <= maxLength-1) {
+                    board[a+1][b+1] = 1;
+                }
+            }
+
+        }
+
+        for(int i = 0; i < board.length; i++){
+            System.out.println(Arrays.toString(board[i]));
+            for(int j = 0; j < board[0].length; j++){
+                if(board[i][j] == 0){
+                    answer++;
+                }
             }
         }
-*/
+
+        System.out.println(answer);
+
         return answer;
 
     }
