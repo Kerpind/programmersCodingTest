@@ -4,40 +4,27 @@ import java.util.Arrays;
 
 public class Day21_3 {
 
-    // 외계어 사전
+    // 삼각형의 완성조건 (2)
     public static void main(String[] args) {
 
-        String[] spell = {"z", "d", "x"};
-        String[] dic = {"def", "dww", "dzx", "loveaw"};
+        int[] sides = {3, 6};
 
-        System.out.println("solution => " + solution(spell, dic));
+        System.out.println("solution => " + solution(sides));
 
     }
 
-    public static int solution(String[] spell, String[] dic) {
+    public static int solution(int[] sides) {
 
         int answer = 0;
 
-        Arrays.sort(spell);
-        String a = "";
-        String b = "";
+        Arrays.sort(sides);
 
-        for (int i = 0; i < spell.length; i++) {
-            a += spell[i];
+        for (int i = sides[0]+sides[1]; i > sides[1]; i--) {
+            answer++;
         }
-
-        for (int j = 0; j < dic.length; j++) {
-            String[] c = dic[j].split("");
-            Arrays.sort(c);
-            b = "";
-            for (int k = 0; k < c.length; k++) {
-                b += c[k];
-            }
-            if (a.equals(b)) {
-                answer = 1;
-                break;
-            } else {
-                answer = 2;
+        for(int j = sides[0]+sides[1]-1; j > 0; j--) {
+            if (j > sides[1]) {
+                answer++;
             }
         }
 
