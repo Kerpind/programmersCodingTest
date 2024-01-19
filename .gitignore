@@ -1,2 +1,4 @@
-out\production\programmersCodingTest
-.idea
+out/production\programmersCodingTest/*
+*.idea/*
+.idea/sonarlint/*
+.idea/misc.xml

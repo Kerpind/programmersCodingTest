@@ -11,17 +11,6 @@ public class Day22_2 {
 
     }
 
-//    1	    1   (0)
-//    2	    2   (0)
-//    3	    4   (1)
-//    4	    5   (1)
-//    5	    7   (2)
-//    6	    8   (2)
-//    7	    10  (3)
-//    8	    11  (3)
-//    9	    14  (5)
-//    10	16  (6)
-
     public static int solution(int n) {
 
         int answer = 0;
