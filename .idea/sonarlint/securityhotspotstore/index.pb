@@ -31,11 +31,3 @@ S
 src/Test.java,a\8\a862b92d10f810e224187403c322cb8e01f5e244
 >
 src/Test3.java,9\8\982e048ee39feba4ae6dbb73fa3b9376b7e639c2
->
-src/Test2.java,9\c\9c777542eac3e7581b88482f66bd1547cefcf0ac
->
-src/Test1.java,c\6\c69d816af0be3a7068d261d1988fc40e62cd9330
->
-src/Test4.java,4\8\48def94fb046164cad7482af3bce7ac1aea12f95
-S
-#src/introduction/day22/Day22_1.java,b\9\b9dd045fdc6e6ef025fa64e46a993b948cc5c8d0
