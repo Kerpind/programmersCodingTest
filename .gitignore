@@ -1,2 +1,2 @@
-out/production\programmersCodingTest/*
+*out/production\programmersCodingTest/**
 *.idea/**
