@@ -1,13 +1,0 @@
-
-k	java:S117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ÿ£±úÿÿÿÿ
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—Ìéùÿÿÿÿ
-2
-java:S1643#"Use a StringBuilder instead.(š¹Å
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(£ï¦¡ùÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(³†ãæùÿÿÿÿ
-P
-java:S1854"5Remove this useless assignment to local variable "a".(æÇ‰Ÿıÿÿÿÿ
-K
-java:S1854)"5Remove this useless assignment to local variable "d".(ıß³ÿ
-7	java:S131""Add a default case to this switch.(ãô˜é

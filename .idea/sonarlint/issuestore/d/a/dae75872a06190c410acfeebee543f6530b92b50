@@ -1,8 +1,0 @@
-
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(èó›¾
-N	java:S106"9Replace this use of System.out or System.err by a logger.(²µöÑ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ó¶àŠ
-P
-java:S1854":Remove this useless assignment to local variable "answer".(µ™ä‚
-Q
-java:S1128"4Remove this unused import 'java.util.stream.Stream'.(ó÷Ž”8Ãµ´íŸ1

@@ -1,15 +1,0 @@
-
-U
-java:S1854":Remove this useless assignment to local variable "result".(½·³Êùÿÿÿÿ
-P
-java:S1854"5Remove this useless assignment to local variable "b".(Êä·Çþÿÿÿÿ
-K
-java:S1854"5Remove this useless assignment to local variable "a".(Žƒè‹
-<
-java:S1481"&Remove this unused "a" local variable.(Žƒè‹
-A
-java:S1481"&Remove this unused "b" local variable.(Êä·Çþÿÿÿÿ
-F
-java:S1481"+Remove this unused "result" local variable.(½·³Êùÿÿÿÿ
-O
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8ÿ­§ß¡1
