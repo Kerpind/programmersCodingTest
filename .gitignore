@@ -1,2 +1,4 @@
 *out/production\programmersCodingTest/**
 *.idea/**
+*.class
+*.iml
