@@ -1,6 +1,6 @@
 package introduction.day23;
 
-public class Day23_1 {
+public class Day23_3 {
 
     // 옹알이 (1)
     public static void main(String[] args) {
