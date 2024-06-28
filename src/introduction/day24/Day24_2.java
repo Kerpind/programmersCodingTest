@@ -2,31 +2,19 @@ package introduction.day24;
 
 public class Day24_2 {
 
-    // k의 개수
+    // 이진수 더하기
     public static void main(String[] args) {
 
-        int i = 1;
-        int j = 13;
-        int k = 1;
+        String bin1 = "10";
+        String bin2 = "11";
 
-        System.out.println("solution => " + solution(i, j, k));
+        System.out.println("solution => " + solution(bin1, bin2));
 
     }
 
-    public static int solution(int i, int j, int k) {
+    public static String solution(String bin1, String bin2) {
 
-        int answer = 0;
-
-        for (int a = i; a <= j; a++) {
-            String[] b = String.valueOf(a).split("");
-            for (int c = 0; c < b.length; c++) {
-                if(String.valueOf(k).equals(b[c])){
-                    answer++;
-                }
-            }
-        }
-
-        return answer;
+        return Integer.toString(Integer.parseInt(bin1, 2)+Integer.parseInt(bin2, 2), 2);
 
     }
 
